@@ -1,0 +1,17 @@
+[
+  {
+    "address":"127.0.0.1",
+    "port": 4321,
+    "target": "http://104.43.162.44:4322",
+    "ssl": {
+      "cert":"C:/Users/pdemro/proxy/spfx-cert.pem",
+      "key":"C:/Users/pdemro/proxy/spfx-cert-key.pem"
+    },
+    "comment": "IP address changes every day if you use auto-shutdown.  Pro-tip, use auto shutdown to save $$"
+  },
+  {
+    "address":"127.0.0.1",
+    "port": 4333,
+    "target": "http://104.43.162.44:4322"
+  }
+]

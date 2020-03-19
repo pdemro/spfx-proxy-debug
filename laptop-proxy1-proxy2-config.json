@@ -1,0 +1,15 @@
+[
+    {
+      "title": "Proxy1",
+      "address":"127.0.0.1",
+      "port": 4321,
+      "target": "http://x.x.x.x:4322",
+      "comment": "IP address changes every day if you use auto-shutdown.  Pro-tip, use auto shutdown to save $$"
+    },
+    {
+      "title": "Proxy2",
+      "address":"127.0.0.1",
+      "port": 4333,
+      "target": "http://x.x.x.x:4322"
+    }
+  ]

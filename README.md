@@ -17,14 +17,14 @@ Many of my coworkers have opted to simply spin up virtual machines in a cloud se
 A cheap Linux VM would be an option.  Cheap Linux VMs generally don't come with a desktop UI installed which is a requirement for the typical SpFx debugging scenario.  So option 2 - spin up a cheap Linux VM, install a UI (unity, Cinnamon, etc.) and do SpFx development on the VM.
 
 ## Option 3, the "nuclear" option
-Another option of course is to format my work laptop with whatever OS I want, but of course I need to VPN from time to time to the mothership which is impossible without being joined to the domain.
+Another option of course is to format my work laptop with whatever OS I want.  The problem with this approach is I need to VPN from time to time to the mothership which is impossible without being joined to the domain.
 
 ## Option 4, what I did
 Spin up a cheap Linux VM (about $6/month) with my free Azure credits and proxy all SpFx requests to the VM rather than my local machine for debugging.  Use an rsync monitor to diff copy files from my local dev environment to the VM.  
 
 No matter what option you choose, if your company imposes crippling "governance" applications on your laptop it is worth investigating alternatives.
 
-**TLDR; SpFx gulp serve builds on the dedicated $6/month Linux VM run 90% faster than on my local company issued, bloatware riddled laptop.**  
+**TLDR; SpFx gulp serve builds on the dedicated $6/month Linux VM run 90% faster than on my local organization-issued laptop.**  This tutorial will show you how to offload SpFx transpile and hosting to a remote VM using reverse proxies.
 
 # Overview
 

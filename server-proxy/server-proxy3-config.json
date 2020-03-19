@@ -1,0 +1,6 @@
+[
+    {
+      "port": 4322,
+      "target": "http://localhost:4333"
+    }
+ ]

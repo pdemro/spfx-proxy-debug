@@ -159,4 +159,4 @@ openssl pkcs12 -inkey key.pem -in cert.pem -export -out spfx-self-signed.pfx
 ![FireFox certificate](./tutorial-images/firefox-certificate.png)
 
 # Remarks
-Is this solution over-engineered?  Without a doubt.  It solves a niche problem in my case which I hope will return my time investment in re-captured efficiency.  I am mostly posting this for my own reference later when it inevitably breaks, but I hope it can be helpful for some other sucky working with a hot brick company laptop
+Is this solution over-engineered?  Without a doubt.  It solves a niche problem in my case which I hope will return my time investment in re-captured efficiency.  I am mostly posting this for my own reference later when it inevitably breaks, but I hope it can be helpful for some other sucker working with a hot brick company laptop
